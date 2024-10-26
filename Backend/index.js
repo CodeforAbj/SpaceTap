@@ -24,6 +24,6 @@ const yoga = createYoga({
 
 const server = createServer(yoga);
 
-server.listen(process.env.SECRET_KEY, 4000, () => {
+server.listen(4000, () => {
   console.info("Graphql Server is running ");
 });
