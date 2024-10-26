@@ -1,0 +1,43 @@
+.progress-gradient {
+  background: linear-gradient(to right, #90ef89, #d692dd, #726edd);
+}
+.top-glow {
+  box-shadow: 0 -26px 20px rgba(47, 142, 243, 0.3);
+}
+
+@keyframes jump {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, -10px); /* Adjust the height of the jump */
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+
+.jumping {
+  animation: jump 0.5s ease;
+}
+
+@keyframes denial {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px); /* Move left */
+  }
+  50% {
+    transform: translateX(5px); /* Move right */
+  }
+  75% {
+    transform: translateX(-5px); /* Move left again */
+  }
+}
+
+.shake {
+  animation: denial 0.5s ease; /* Adjusted duration for more dramatic effect */
+  transform-origin: center;
+}
