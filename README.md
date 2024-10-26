@@ -16,10 +16,12 @@ This project integrates a React frontend with a Supabase backend and Telegram bo
 
 
 ## Screenshots
+<div >
+<img src="https://github.com/CodeforAbj/SpaceTap/blob/768ac9f8e8151213f097c9dda053b2531b6d187f/Readme/animation.jpeg" alt="App Screenshot" width="300" />
 
-![App Screenshot](https://github.com/CodeforAbj/SpaceTap/blob/768ac9f8e8151213f097c9dda053b2531b6d187f/Readme/animation.jpeg)
+<img src="https://github.com/CodeforAbj/SpaceTap/blob/768ac9f8e8151213f097c9dda053b2531b6d187f/Readme/collage.jpg" alt="Various Levels" width="500" />
+</div>
 
-![Multiple Levels](https://github.com/CodeforAbj/SpaceTap/blob/768ac9f8e8151213f097c9dda053b2531b6d187f/Readme/collage.jpg)
 
 ### Game Features
 - **Simple Tap Mechanics:** Tap the rocket to earn points – the more taps, the higher the score!
